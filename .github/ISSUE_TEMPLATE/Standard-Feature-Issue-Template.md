@@ -22,31 +22,44 @@ so that < why do you need this (short description of the business value >.
 ## Notes
 < bulleted list of special notes or suggestions to the development team on the implementation of the changes. >  
 
-## Definition of Ready
+## Ready for Planning
 
 - [ ] The Issue maintains standard format for Issues and meets INVEST
-- [ ] Issue Defined and written appropriately
-- [ ] Acceptance Criteria Defined
-- [ ] User acceptance test cases defined
+- [ ] Story and Business Value complete
+- [ ] Initial Acceptance Criteria Defined
 - [ ] The person who will Approve story identified
-- [ ] Dependencies Identified
+
+## Ready for Ready to Work
+- [ ] Acceptance Criteria Refined
 - [ ] Issue size estimated by Dev Team
-- [ ] Proposed solution accepted
+- [ ] Dependencies Identified
 
-## Definition of Done
+## Ready for Review
+- [ ] Proposed solution defined and accepted
+- [ ] Code defined, implemented, and built
+- [ ] Unit test defined, implemented, and passed
 
-- [ ] Issue accepted by PO
-- [ ] Issue is scored
+## Ready for Pre-Production QA
+- [ ] Peer Reviews complete with all changes tested
 - [ ] All features implemented
 - [ ] All features not yet implemented or inactive are hidden from the user
-- [ ] Peer Reviews complete	
-- [ ] Unit and regression tests are Passed
-- [ ] Manual Testing Complete and issues resolved
-- [ ] Automated tests created and run successfully
-- [ ] All blockers addressed
+- [ ] Special testing instructions noted
 - [ ] Acceptance criteria met
-- [ ] Deployed and verified in Production
-- [ ] Ready for PO Approval
+
+## Ready for Deploy and Test
+- [ ] PreProduction QA Test Passed
+ 
+## Ready for Production QA
+- [ ] Software deployed in production with no errors
+
+## Ready for SM Approval
+- [ ] Production QA Test Passed
+- [ ] Acceptance Test Results included in Comment
+
+## Ready for PO Approval
+
+- [ ] Issue complete and correct in all required sections
+- [ ] All checkboxes checked
 
 ## Subject Domain Experts
 < include a list of subject domain experts for this domain. If the subject expert from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
