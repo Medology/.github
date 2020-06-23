@@ -35,9 +35,9 @@ so that < why do you need this (short description of the business value >.
 - [ ] Dependencies Identified
 
 ## Ready for Review
-- [ ] Proposed solution defined and accepted
-- [ ] Code defined, implemented, and built
-- [ ] Unit test defined, implemented, and passed
+- [ ] Proposed solution defined and accepted by Approver
+- [ ] Code implemented and built
+- [ ] Testing implemented and passed
 
 ## Ready for Pre-Production QA
 - [ ] Peer Reviews complete with all changes tested
@@ -54,7 +54,7 @@ so that < why do you need this (short description of the business value >.
 
 ## Ready for SM Approval
 - [ ] Production QA Test Passed
-- [ ] Acceptance Test Results included in Comment
+- [ ] Manual Acceptance Test Results included in Comment
 
 ## Ready for PO Approval
 
