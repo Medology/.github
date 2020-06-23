@@ -44,6 +44,7 @@ so that < why do you need this (short description of the business value >.
 - [ ] All features implemented
 - [ ] All features not yet implemented or inactive are hidden from the user
 - [ ] Special testing instructions noted
+- [ ] Acceptance Test cases created and reviewed by QA
 - [ ] Acceptance criteria met
 
 ## Ready for Deploy and Test
