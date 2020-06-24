@@ -41,8 +41,6 @@ labels: Bug
 
 ## Ready for Pre-Production QA
 - [ ] Peer Reviews complete with all changes tested
-- [ ] All features implemented
-- [ ] All features not yet implemented or inactive are hidden from the user
 - [ ] Special testing instructions noted
 - [ ] Acceptance Test cases created and reviewed by QA
 - [ ] System is behaving in accordance with "Expected Behavior"
