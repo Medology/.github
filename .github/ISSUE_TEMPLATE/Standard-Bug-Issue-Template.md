@@ -27,31 +27,42 @@ labels: Bug
 ## Notes
 < bulleted list of special notes or suggestions to the development team on any information pertinent to the bug. > 
 
-## Definition of Ready
-
+## Ready for Ready to Work
 - [ ] The Issue maintains standard format for Issues and meets INVEST
-- [ ] Story Defined and written appropriately
-- [ ] Steps to Recreate supplied and sufficiently detailed
-- [ ] Expected and Actual Behavior supplied
-- [ ] Business Value supplied
+- [ ] Story and Business Value complete
+- [ ] Steps to Recreate, Expected Behavior, and Actual Behavior complete
 - [ ] The person who will Approve story identified
 - [ ] Dependencies Identified
-- [ ] User acceptance test cases are created/modifed
-- [ ] Bug Issue linked to Feature Issue and/or Epic containing the functionality (optional if Epic/Feature exist)
 
-## Definition of Done
+## Ready for Review
+- [ ] Proposed solution defined and accepted by Approver
+- [ ] Code implemented and built
+- [ ] Testing implemented and passed
 
-- [ ] Proposed solution accepted (optional and used if the solution changes anything other than the Actual Behavior to Expected)
-- [ ] Issue accepted by PO
-- [ ] Issue is scored
-- [ ] Peer Reviews complete	
-- [ ] Unit and regression tests are Passed
-- [ ] Manual Testing Complete and issues resolved
-- [ ] Automated tests created and run successfully
-- [ ] All blockers addressed
+## Ready for Pre-Production QA
+- [ ] Peer Reviews complete with all changes tested
+- [ ] All features implemented
+- [ ] All features not yet implemented or inactive are hidden from the user
+- [ ] Special testing instructions noted
+- [ ] Acceptance Test cases created and reviewed by QA
 - [ ] System is behaving in accordance with "Expected Behavior"
-- [ ] Deployed and verified in Production
-- [ ] Ready for PO Approval
+- [ ] Issue scored
+
+## Ready for Deploy and Test
+- [ ] PreProduction QA Test Passed
+ 
+## Ready for Production QA
+- [ ] Software deployed in production with no errors
+
+## Ready for SM Approval
+- [ ] Production QA Test Passed
+- [ ] Manual Acceptance Test Results included in Comment
+
+## Ready for PO Approval
+
+- [ ] Issue complete and correct in all required sections
+- [ ] All checkboxes checked
+
 
 ## Subject Domain Experts
 < include a list of subject domain experts for this domain. If the subject expert from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
