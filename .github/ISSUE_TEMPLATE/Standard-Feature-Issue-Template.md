@@ -14,16 +14,16 @@ so that < why do you need this (short description of the business value >.
 ## Business Value  
 < Complete description of the business value - why do we need to make this change - for the requested item. It is useful to have this even for bugs that we feel “must” be fixed because it helps prioritization. >
 
-# Acceptance Criteria
-< list of behaviors that must be present in order to satisfy the required functionality described above. >
- 
 ## Notes
 < list of special notes or suggestions to the development team on the implementation of the changes. >  
 
-## Subject Domain Experts
+# Acceptance Criteria
+< list of behaviors that must be present in order to satisfy the required functionality described above. >
+ 
+# Subject Domain Experts
 < list of subject domain experts for this domain. If the subject expert from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
 
-## Proposed Solution  
+# Proposed Solution  
 < Narrative describing how the solution will be implemented including screen shots, data samples, API specification, architectural changes, etc. as appropriate for the type and scope of Issue. This solution must be reviewed with the requester before beginning implementation. > 
 
 # Progress
