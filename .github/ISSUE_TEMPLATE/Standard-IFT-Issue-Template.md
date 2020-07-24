@@ -5,7 +5,7 @@ labels: Intermittently Failing Test
 ---
 
 # Failed Scenario:
-< The title of the failed behat scenario. >
+< The title of the failed test. >
 
 ## Error Step:
 < The error that is thrown on CircleCI for the failed step. >
@@ -14,7 +14,7 @@ labels: Intermittently Failing Test
 < The link to the failed build on CircleCI. >
 
 # Acceptance Criteria
-- [ ] The behat test should not fail again.
+- [ ] The test should not fail again.
 - [ ] Proper stress testing has been done.
 
 or
