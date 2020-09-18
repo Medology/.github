@@ -27,7 +27,8 @@ labels: Technical
 
 # Announcement Message
 releasenotes: < if the Issue is something visible to the end user, then put the text for the releasenotes slack channel here. Otherwise indicate "N/A" >
-devteam: < If Dev Team requires notification instead of the end user or if there is different information for the dev team, then put the text here. Otherwise indicate "N/A" >
+
+devchat: < If HL Engineering requires notification instead of the end user or if there is different information, then put the text here. Otherwise indicate "N/A" >
 
 # Progress
 ### Ready for Planning
