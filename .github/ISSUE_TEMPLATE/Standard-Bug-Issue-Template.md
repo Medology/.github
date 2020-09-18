@@ -31,7 +31,8 @@ or
 
 # Announcement Message
 releasenotes: < if the Issue is something visible to the end user, then put the text for the releasenotes slack channel here. Otherwise indicate "N/A" >
-crumpet: < If Team Crumpet requires notification instead of the end user or if there is different information for Team Crumpet, then put the text here. Otherwise indicate "N/A" >
+
+devchat: < If Team Crumpet requires notification instead of the end user or if there is different information for Team Crumpet, then put the text here. Otherwise indicate "N/A" >
 
 # Subject Domain Experts
 < list of subject domain experts for this domain. If the subject expert from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
