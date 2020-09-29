@@ -23,8 +23,8 @@ labels: denendencies
 
 ## Acceptance Criteria
 < list of behaviors that must be present in order to satisfy the required functionality described above. >
-[ ] Dependency updated in the build
-[ ] Unit tests passing
+- [ ] Dependency updated in the build
+- [ ] Unit tests passing
 
 ## Announcement Message
 devchat: < Dependency name > has been updated to <dependency target version> See <link to new features or this Issue > for available features and fixes
