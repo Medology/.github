@@ -1,5 +1,5 @@
 ---
-name:  Denendencies Issue
+name:  Dependencies Issue
 about: Use this template for all Dependencies Issues, even those automatically generated
 labels: denendencies
 ---
