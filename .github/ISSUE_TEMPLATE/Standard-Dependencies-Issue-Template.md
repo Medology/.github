@@ -27,6 +27,7 @@ labels: dependencies
 - [ ] Unit tests passing
 
 ## Announcement Message
+releasenotes: Changes have been made that affect < some portion of the system >. Please let us know if you have any difficulties < doing whatever they do with that part of the system  >
 devchat: < Dependency name > has been updated to <dependency target version> See <link to new features or this Issue > for available features and fixes
 
 ## Progress
