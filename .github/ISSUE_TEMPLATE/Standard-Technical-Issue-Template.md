@@ -31,25 +31,22 @@ releasenotes: < if the Issue is something visible to the end user, then put the 
 devchat: < If HL Engineering requires notification instead of the end user or if there is different information, then put the text here. Otherwise indicate "N/A" >
 
 ## Progress
-### Ready for Planning
-- [ ] Story and Business Value complete
+### Reviewed Issues - completed by SM & Team Leads
+- [ ] Description and Negative Impact complete
+- [ ] QA Needs complete
 - [ ] Initial Acceptance Criteria Defined
 - [ ] The person who will Approve story identified
 - [ ] Proposed Solution provided
 
-### Ready for Review
-- [ ] Testing implemented and passed
-
-### Ready for Pre-Production QA
+### Implemented Issue - completed by Developer assigned
 - [ ] Issue scored
-- [ ] Special testing instructions noted
 - [ ] Acceptance criteria met - boxes checked
 - [ ] Announcement message created
 
-### Ready for SM Approval
-- [ ] Acceptance Test Results included in Comment
+### Tested Issue - Completed by QA assigned
+- [ ] Manual Acceptance Test Results included in Comment
 
-### Ready for PO Approval
+### Deploy-able Issue - completed by SM
 - [ ] Announcement message approved
 - [ ] Issue complete and correct in all required sections
-- [ ] All checkboxes checked
+- [ ] Issue requirements met
