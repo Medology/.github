@@ -29,14 +29,14 @@ devchat: < If HL Engineering requires notification instead of the end user or if
 
 ## Progress
 ### Fully Created Issues - completed by author
-- [ ] Description completed
+- [ ] Story and Business Value complete
 - [ ] Acceptance Criteria Specified
 - [ ] Approver Identified
 - [ ] Labels attached
 - [ ] QA Needs provided
 
 ### SME Reviewed Issues - completed by SM & Team Leads
-- [ ] Description approved
+- [ ] Story and Business Value approved
 - [ ] Acceptance Criteria Finalized
 - [ ] Approver correct
 - [ ] Appropriate labels attached
