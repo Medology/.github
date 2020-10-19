@@ -9,7 +9,7 @@ labels: Investigation
 < What inspired this investigation >
 
 ## Value of information acquired
-< What is the potential gain from the investigation outcome (customer dissatisfaction, loss of time, money, etc. >
+< What is the potential gain from the investigation outcome ( reduce customer dissatisfaction, save time, save money, etc. >
 
 ## Notes
 < special notes or suggestions information already acquired > 
