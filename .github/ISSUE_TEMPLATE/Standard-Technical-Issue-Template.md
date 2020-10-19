@@ -31,12 +31,20 @@ releasenotes: < if the Issue is something visible to the end user, then put the 
 devchat: < If HL Engineering requires notification instead of the end user or if there is different information, then put the text here. Otherwise indicate "N/A" >
 
 ## Progress
-### Reviewed Issues - completed by SM & Team Leads
-- [ ] Description and Negative Impact complete
-- [ ] QA Needs complete
-- [ ] Initial Acceptance Criteria Defined
-- [ ] The person who will Approve story identified
-- [ ] Proposed Solution provided
+### Fully Created Issues - completed by author
+- [ ] Description completed
+- [ ] Acceptance Criteria Specified
+- [ ] Approver Identified
+- [ ] Labels attached
+- [ ] QA Needs provided
+
+### SME Reviewed Issues - completed by SM & Team Leads
+- [ ] Description approved
+- [ ] Acceptance Criteria Finalized
+- [ ] Approver correct
+- [ ] Appropriate labels attached
+- [ ] QA Needs reviewed
+
 
 ### Implemented Issue - completed by Developer assigned
 - [ ] Issue scored
