@@ -41,7 +41,7 @@ devchat: < If Hl Engineering requires notification instead of the end user or if
 < list of subject domain experts for this domain. If the subject expert from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
 
 ## Progress
-### Reviewed Issues - completed by SM & Team Leads
+### Code Reviewed Issues - completed by SM & Team Leads
 - [ ] Story and Business Value complete
 - [ ] Initial Acceptance Criteria Defined
 - [ ] The person who will Approve story identified
