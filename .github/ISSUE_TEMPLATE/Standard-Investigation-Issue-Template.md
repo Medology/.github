@@ -26,15 +26,24 @@ or
 < list of subject domain experts for this domain. If the subject expert from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
 
 ## Progress
-### Reviewed Issues - completed by SM & Team Leads
-- [ ] Inspiration and Value complete
-- [ ] Initial Acceptance Criteria Defined
-- [ ] The person who will Approve story identified
+### Fully Created Issues - completed by author
+- [ ] Inspiration and Value completed
+- [ ] Acceptance Criteria Specified
+- [ ] Approver Identified
+- [ ] Labels attached
+- [ ] SME's provided
+
+### SME Reviewed Issues - completed by SM & Team Leads
+- [ ] Description approved
+- [ ] Acceptance Criteria Finalized
+- [ ] Approver correct
+- [ ] Appropriate labels attached
+- [ ] SME list complete
 
 ### Implemented Issue - completed by Developer assigned
 - [ ] Issue scored
-- [ ] Acceptance criteria met - boxes checked
+- [ ] Acceptance criteria selected and met - boxes checked
 
 ### Deploy-able Issue - completed by SM
 - [ ] Issue complete and correct in all required sections
-- [ ] Issue requirements met
+- [ ] Acceptance Criteria met
