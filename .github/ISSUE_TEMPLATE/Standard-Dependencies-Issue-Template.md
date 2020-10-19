@@ -31,7 +31,7 @@ releasenotes: Changes have been made that affect < some portion of the system >.
 devchat: < Dependency name > has been updated to <dependency target version> See <link to new features or this Issue > for available features and fixes
 
 ## Progress
-### Reviewed Issues - completed by Dependency Master
+### Code Reviewed Issues - completed by Dependency Maintainer
 - [ ] Description complete
 - [ ] Initial Acceptance Criteria Defined
 - [ ] The person who will Approve story identified
