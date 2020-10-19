@@ -3,6 +3,7 @@ name:  Investigation Issue
 about: Use this template for all Investigations
 labels: Investigation
 ---
+
 # Story
 ## Inspiration
 < What inspired this investigation >
