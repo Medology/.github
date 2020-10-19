@@ -28,11 +28,18 @@ devchat: < If HL Engineering requires notification instead of the end user or if
 < list of subject domain experts for this domain. If the subject expert from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
 
 ## Progress
-### Reviewed Issues - completed by SM & Team Leads
-- [ ] Story and Business Value complete
-- [ ] Initial Acceptance Criteria Defined
-- [ ] The person who will Approve story identified
-- [ ] Proposed Solution provided
+### Fully Created Issues - completed by author
+- [ ] Description completed
+- [ ] Acceptance Criteria Specified
+- [ ] Approver Identified
+- [ ] Labels attached
+- [ ] QA Needs provided
+
+### SME Reviewed Issues - completed by SM & Team Leads
+- [ ] Description approved
+- [ ] Acceptance Criteria Finalized
+- [ ] Approver correct
+- [ ] Appropriate labels attached
 
 ### Implemented Issue - completed by Developer assigned
 - [ ] Issue scored
@@ -45,4 +52,4 @@ devchat: < If HL Engineering requires notification instead of the end user or if
 ### Deploy-able Issue - completed by SM
 - [ ] Announcement message approved
 - [ ] Issue complete and correct in all required sections
-- [ ] Issue requirements met
+- [ ] Acceptance Criteria met
