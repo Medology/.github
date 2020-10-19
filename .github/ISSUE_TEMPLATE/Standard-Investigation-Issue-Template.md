@@ -20,7 +20,7 @@ labels: Investigation
 
 or
 
-- [ ] A solution has been discovered but it was deemed not worth it
+- [ ] A solution has been discovered but it was deemed not worth it, and reasoning is documented on this issue
 
 ## Subject Domain Experts
 < list of subject domain experts for this domain. If the subject expert from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
