@@ -28,13 +28,15 @@ labels: dependencies
 
 ## Announcement Message
 releasenotes: Changes have been made that affect < some portion of the system >. Please let us know if you have any difficulties < doing whatever they do with that part of the system  >
+
 devchat: < Dependency name > has been updated to <dependency target version> See <link to new features or this Issue > for available features and fixes
 
 ## Progress
-### Code Reviewed Issues - completed by Dependency Maintainer
-- [ ] Description complete
-- [ ] Initial Acceptance Criteria Defined
-- [ ] The person who will Approve story identified
+### DM Reviewed Issues - completed by Dependency Maintainer
+- [ ] Description completed
+- [ ] Acceptance Criteria Specified
+- [ ] Approver Identified
+- [ ] Labels attached
 - [ ] QA Needs provided
 
 ### Implemented Issue - completed by Developer assigned
@@ -48,4 +50,4 @@ devchat: < Dependency name > has been updated to <dependency target version> See
 ### Deploy-able Issue - completed by SM
 - [ ] Announcement message approved
 - [ ] Issue complete and correct in all required sections
-- [ ] Issue requirements met
+- [ ] Acceptance Criteria met
