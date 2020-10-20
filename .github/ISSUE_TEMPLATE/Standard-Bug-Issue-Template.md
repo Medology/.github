@@ -37,8 +37,8 @@ devchat: < If Hl Engineering requires notification instead of the end user or if
 # Proposed Solution  
 < Narrative describing how the solution will be implemented including screen shots, data samples, API specification, architectural changes, etc. as appropriate for the type and scope of Issue. This solution must be reviewed with the requester before beginning implementation. Include any special instructions to QA for testing. > 
 
-## Subject Domain Experts
-< list of subject domain experts for this domain. If the subject expert from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
+## Subject Matter Experts
+< list of subject matter experts for this domain. If the SME from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
 
 ## Progress
 ### Fully Created Issues - completed by author
@@ -47,6 +47,7 @@ devchat: < If Hl Engineering requires notification instead of the end user or if
 - [ ] Approver Identified
 - [ ] Labels attached
 - [ ] QA Needs provided
+- [ ] SME's provided
 
 ### SME Reviewed Issues - completed by SM & Team Leads
 - [ ] Description approved
@@ -54,6 +55,7 @@ devchat: < If Hl Engineering requires notification instead of the end user or if
 - [ ] Approver correct
 - [ ] Appropriate labels attached
 - [ ] QA Needs reviewed
+- [ ] SME list complete
 
 ### Implemented Issue - completed by Developer assigned
 - [ ] Issue scored
