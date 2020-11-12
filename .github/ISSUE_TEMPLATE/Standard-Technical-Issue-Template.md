@@ -29,32 +29,3 @@ labels: Technical
 releasenotes: < if the Issue is something visible to the end user, then put the text for the releasenotes slack channel here. Otherwise indicate "N/A" >
 
 devchat: < If HL Engineering requires notification instead of the end user or if there is different information, then put the text here. Otherwise indicate "N/A" >
-
-## Progress
-### Fully Created Issues - completed by author
-- [ ] Description completed
-- [ ] Acceptance Criteria Specified
-- [ ] Approver Identified
-- [ ] Labels attached
-- [ ] QA Needs provided
-
-### SME Reviewed Issues - completed by SM & Team Leads
-- [ ] Description approved
-- [ ] Acceptance Criteria Finalized
-- [ ] Approver correct
-- [ ] Appropriate labels attached
-- [ ] QA Needs reviewed
-
-
-### Implemented Issue - completed by Developer assigned
-- [ ] Issue scored
-- [ ] Acceptance criteria met - boxes checked
-- [ ] Announcement message created
-
-### Tested Issue - Completed by QA assigned
-- [ ] Manual Acceptance Test Results included in Comment
-
-### Deploy-able Issue - completed by SM
-- [ ] Announcement message approved
-- [ ] Issue complete and correct in all required sections
-- [ ] Issue requirements met
