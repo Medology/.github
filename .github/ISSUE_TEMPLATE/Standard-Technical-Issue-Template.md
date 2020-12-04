@@ -31,7 +31,7 @@ labels: Technical
 < Indicate whether this item needs QA testing. For those that do, indicate any special setup or tool set the QA team might need. >
 
 ## Acceptance Criteria
-< list of behaviors that must be present in order to satisfy the required functionality described above. >
+- [ ] list of behaviors that must be present in order to satisfy the required functionality described above.
 
 ## Announcement Message
 releasenotes: < if the Issue is something visible to the end user, then put the text for the releasenotes slack channel here. Otherwise indicate "N/A" >
