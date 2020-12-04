@@ -4,11 +4,19 @@ about: Use this template for all Technicals
 labels: Technical
 ---
 
-# Description
+# Story
+
+## Description
 < Description of the problem. >
 
 ## Negative Impact:
 < Who is affected and how does the described problem affect Dev, QA, or DevOps. >
+
+## Business Value
+< What is the gain from the fix or the cost in not fixing it (customer dissatisfaction, loss of time, money, etc. >
+
+## Notes
+< special notes or suggestions to the development team on any information pertinent to the problem >
 
 # Proposed Solution:
 < Describe the proposed solution for the problem. >
