@@ -22,5 +22,9 @@ or
 
 - [ ] A solution has been discovered but it was deemed not worth it, and reasoning is documented on this issue
 
+## Announcement Message
+
+devchat: < Dependency name > has been updated to See for available features and fixes
+
 ## Subject Matter Experts
 < list of subject matter experts for this domain. If the SME from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
