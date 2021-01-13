@@ -26,3 +26,6 @@ devchat: < If HL Engineering requires notification instead of the end user or if
 
 ## Subject Matter Experts
 < list of subject matter experts for this domain. If the SME from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
+
+## QA Needs
+< Indicate any special setup or tool set the QA team might need. >
