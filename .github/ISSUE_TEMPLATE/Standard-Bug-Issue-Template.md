@@ -27,7 +27,7 @@ labels: Bug
 
 or
 
-- [ ] Bug could not be reproduced but addditional logging has been added
+- [ ] Bug could not be reproduced but additional logging has been added
 
 ## Announcement Message
 releasenotes: < if the Issue is something that could affect the end user, then put the text for the releasenotes Slack channel here. Otherwise. indicate "N/A" >
