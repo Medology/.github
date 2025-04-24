@@ -1,3 +1,9 @@
+---
+name: Flaky Test Issue
+about: Use this template for tests that fail intermittently
+labels: Intermittently Failing Test
+---
+
 ## Description
 < Include the name, scenario, path, etc of the failing test >
 
