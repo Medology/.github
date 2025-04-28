@@ -23,7 +23,8 @@ or
 - [ ] A solution has been discovered but it was deemed not worth it, and reasoning is documented on this issue
 
 ## Announcement Message
-dev-important: < If engineering requires notification instead of (or in addition to) the end user or if there is different information, then put the text here. Otherwise, indicate "N/A" >
+dev-important:
+< If engineering requires notification instead of (or in addition to) the end user or if there is different information, then put the text here. Otherwise, indicate "N/A" >
 < LINK TO PR GOES HERE >
 
 ## Subject Matter Experts

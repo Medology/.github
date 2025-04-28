@@ -24,5 +24,6 @@ or
 < list of subject matter experts for the domain of the flaky test and the tools it uses. e.g. if the test is on the Phone Order Page, written in Angular, and tested with Cypress, you should list SMEs for each of those here>
 
 ## Announcement Message
-dev-important: < If engineering requires notification instead of (or in addition to) the end user or if there is different information, then put the text here. Otherwise, indicate "N/A" >
+dev-important:
+< If engineering requires notification instead of (or in addition to) the end user or if there is different information, then put the text here. Otherwise, indicate "N/A" >
 < LINK TO PR GOES HERE >
