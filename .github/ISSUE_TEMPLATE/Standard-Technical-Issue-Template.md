@@ -43,7 +43,21 @@ For Example:
 `A list of resources or caveats that would be applicable to the issue`
 
 ## Exploratory Testing
-`How is the end-user experience affected by this (if at all)? Any special setup or tools required?`
+`A comprehensive list of the areas of this project that are affected by this PR`
+
+The following API endpoints are affected by this change: (if this issue is for an API project)
+
+* `API ROUTE`
+* `API ROUTE`
+* `etc`
+
+The following features/pages are affected by this change: (If applicable)
+
+* `PROJECT NAME - FEATURE NAME`
+* `PROJECT NAME - FEATURE NAME`
+* `etc`
+
+Note: You should include all projects that are affected by this, not just the project that the PR was submitted to. For example, if you make a change that affects an AnalyteCare API endpoint, then you'll want to use our observability tools such as Google Cloud Logging to determine which clients are using that endpoint, and then coordinate with the SMEs (if necessary) to determine which features that project is using the API endpoint to facilitate, and list those here for QA to test.
 
 ## Announcement Message
 releasenotes:
