@@ -1,2 +1,43 @@
 version: 3
-extends: "https://api.github.com/repos/medology/Scripts/contents/Pull%20Approve/crumpet.pullapprove.yml?ref=master"
+
+# Since this project does not use CircleCI, we need to duplicate the "overrides" section from the base config except
+# for the CircleCI-specific override. Since projects not using CI are the exception, this duplication is preferable to
+# having to duplicate the overrides on every CI-using project to specify which CI jobs to check.
+overrides:
+  - if: "base.ref != 'master'"
+    status: failure
+    explanation: "PullApprove is only configured for the master branch"
+
+  - if: "'[DO NOT REVIEW]' in title.upper()"
+    status: pending
+    explanation: "Not ready for review ([DO NOT REVIEW] in title)"
+
+  - if: "'[NO REVIEW]' in title.upper()"
+    status: pending
+    explanation: "Not ready for review ([NO REVIEW] in title)"
+
+  - if: "'Do Not Review' in labels"
+    status: pending
+    explanation: "Not ready for review (Do Not Review label)"
+
+  - if: "draft"
+    status: pending
+    explanation: "Work in progress (draft PR)"
+
+  - if: "state != 'open'"
+    status: failure
+    explanation: "PR must be open to be reviewed"
+
+  - if: "author.username == 'dependabot[bot]'"
+    status: success
+    explanation: "Dependabot PRs do not require code review"
+
+groups:
+  # Override base config to always require and request automatically one Umami dev and one Umami lead to review.
+  umami_devs:
+    conditions:
+      - "True"
+  umami_leads:
+    conditions:
+      - "True"
+extends: "https://api.github.com/repos/medology/Scripts/contents/Pull%20Approve/base.pullapprove.yml?ref=master"
