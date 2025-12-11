@@ -23,6 +23,24 @@ or
 ## Subject Matter Experts
 < list of subject matter experts for the domain of the flaky test and the tools it uses. e.g. if the test is on the Phone Order Page, written in Angular, and tested with Cypress, you should list SMEs for each of those here>
 
+## Exploratory Testing
+`A comprehensive list of the areas of this project that are affected by this PR`
+
+The following API endpoints are affected by this change: (if this issue is for an API project)
+
+* `API ROUTE`
+* `API ROUTE`
+* `etc`
+
+The following features/pages are affected by this change: (If applicable)
+
+* `PROJECT NAME - FEATURE NAME`
+* `PROJECT NAME - FEATURE NAME`
+* `etc`
+
+Note: You should include all projects that are affected by this, not just the project that the PR was submitted to. For example, if you make a change that affects an AnalyteCare API endpoint, then you'll want to use our observability tools such as Google Cloud Logging to determine which clients are using that endpoint, and then coordinate with the SMEs (if necessary) to determine which features that project is using the API endpoint to facilitate, and list those here for QA to test.
+
+
 ## Announcement Message
 dev-important:
 < If engineering requires notification instead of (or in addition to) the end user or if there is different information, then put the text here. Otherwise, indicate "N/A" >

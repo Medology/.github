@@ -30,5 +30,22 @@ dev-important:
 ## Subject Matter Experts
 < list of subject matter experts for this domain. If the SME from the end-user perspective is not the author, an end-user expert should be listed here. The Design, Dev, and QA teams should add experts here as appropriate. >
 
-## QA Needs
-< Indicate any special setup or tool set the QA team might need. >
+
+
+## Exploratory Testing
+`A comprehensive list of the areas of this project that are affected by this PR`
+
+The following API endpoints are affected by this change: (if this issue is for an API project)
+
+* `API ROUTE`
+* `API ROUTE`
+* `etc`
+
+The following features/pages are affected by this change: (If applicable)
+
+* `PROJECT NAME - FEATURE NAME`
+* `PROJECT NAME - FEATURE NAME`
+* `etc`
+
+Note: You should include all projects that are affected by this, not just the project that the PR was submitted to. For example, if you make a change that affects an AnalyteCare API endpoint, then you'll want to use our observability tools such as Google Cloud Logging to determine which clients are using that endpoint, and then coordinate with the SMEs (if necessary) to determine which features that project is using the API endpoint to facilitate, and list those here for QA to test.
+
