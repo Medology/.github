@@ -24,7 +24,7 @@ jobs:
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
-          set -eu
+          set -euo pipefail
 
           CHANGED=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")
           [ "$CHANGED" = ".env.example" ] || { echo "Other files changed, skipping."; exit 0; }
