@@ -1,0 +1,39 @@
+name: Label ng-checkout bump
+
+on:
+  workflow_call:
+    secrets:
+      repo_pat:
+        required: true
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Add ng-checkout bump label
+        env:
+          GH_TOKEN: ${{ secrets.repo_pat }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+
+          CHANGED=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")
+          [ "$CHANGED" = ".env.example" ] || { echo "Other files changed, skipping."; exit 0; }
+
+          DIFF=$(git diff --unified=0 "$BASE_SHA" "$HEAD_SHA" -- .env.example | grep -E '^[+-]' | grep -vE '^(\+\+\+|---)' || true)
+          [ -n "$DIFF" ] || { echo "No effective diff, skipping."; exit 0; }
+
+          OTHER=$(printf '%s\n' "$DIFF" | grep -vE '^[+-]NG_CHECKOUT_RELEASE_TAG=' || true)
+          [ -z "$OTHER" ] || { echo "More than NG_CHECKOUT_RELEASE_TAG changed, skipping."; exit 0; }
+
+          echo "Adding ng-checkout-bump label."
+          gh pr edit "$PR_NUMBER" --add-label "ng-checkout-bump"
