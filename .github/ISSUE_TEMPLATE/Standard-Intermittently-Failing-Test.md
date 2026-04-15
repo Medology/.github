@@ -42,6 +42,6 @@ Note: You should include all projects that are affected by this, not just the pr
 
 
 ## Announcement Message
-dev-important:
+dev-updates:
 < If engineering requires notification instead of (or in addition to) the end user or if there is different information, then put the text here. Otherwise, indicate "N/A" >
 < LINK TO PR GOES HERE >

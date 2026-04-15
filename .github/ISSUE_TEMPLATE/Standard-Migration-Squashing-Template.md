@@ -27,6 +27,6 @@ Not required. This just squashes migrations. No functional code changes. Product
 migrations have already been applied.
 
 ## Announcement Message
-dev-important:
+dev-updates:
 All migrations have been squashed, please rebase/merge to/from master to have a consistent project initialization.
 < LINK TO PR GOES HERE >
