@@ -40,7 +40,10 @@ For Example:
 `List of developers that would be considered to have in-depth info in or around the issue`
 
 ## Notes
-`A list of resources or caveats that would be applicable to the issue`
+`A list of resources or caveats that would be applicable to the issue. This section is for information *specific* to this issue. Any general purpose information regarding standards, conventions, etc., should go in the section below.`
+
+## Applicable Standards, Conventions, etc
+`Place any applicable standards, convention, etc here. This section is specifically for things that are not *specific* to this issue, but are applicable. Specific information for the issue must go in the "Notes" section.`
 
 ## Exploratory Testing
 `A comprehensive list of the areas of this project that are affected by this PR`
