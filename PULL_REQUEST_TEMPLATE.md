@@ -1,4 +1,4 @@
-For #ISSUE_NUMBER
+Resolves #ISSUE_NUMBER
 
 BUG FIX:
 
